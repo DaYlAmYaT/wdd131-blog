@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=family=Mooli&display=swap");
+:root {
+--primary-color: #EFC69B;
+--secondary-color: #AF1B3F;
+--text-dark: #473144;
+--text-light: #ebebeb;
+--primary-font: Helvetica, Arial, sans-serif;
+--secondary-font:  Lora, Impact, serif;
+}
+
+body {
+    color: var(--text-dark);
+    font-family: var(--primary-font);
+}
+
+a, h2 {
+    color: var(--secondary-color);
+}
+
+h1, h2 {
+    font-family: var(--secondary-font);
+    text-align: center;
+}
+
+hr {
+    color: var(--primary-color)
+}
+
+nav > ul {
+    margin: 15px;
+    border-top: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: end;
+    justify-items: end;
+}
+
+li {
+    margin: 15px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.book {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 25px;
+}
+
+.filter {
+    border: 1px solid var(--primary-color);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.detail {
+    margin: 25px;
+    padding-right: 20px;
+    border-right: 1px solid var(--primary-color);
+}
+
+.detail p {
+    text-align: right;
+}
+
+.article {
+    margin: 25px;
+    align-items: center;
+}
