@@ -76,3 +76,12 @@ img {
     margin: 25px;
     align-items: center;
 }
+
+.skiptocontent a {
+    margin: 25px;
+	background: var(--primary-color);
+    position: absolute;
+}
+.skiptocontent a:focus {
+	transform: translateY(0%);
+}
