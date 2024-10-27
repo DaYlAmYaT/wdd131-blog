@@ -46,7 +46,7 @@ li {
     grid-template-columns: 2fr 1fr;
 }
 
-.book {
+.article {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 25px;
@@ -72,7 +72,8 @@ img {
     text-align: right;
 }
 
-.article {
+/*change to book*/
+.book {
     margin: 25px;
     align-items: center;
 }
@@ -84,4 +85,8 @@ img {
 }
 .skiptocontent a:focus {
 	transform: translateY(0%);
+}
+
+.detail p:first-child {
+    font-size: 125%;
 }
